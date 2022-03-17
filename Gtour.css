@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+p,h1,h3{
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+.contain{
+    padding: 4rem 8rem;
+}
+
+.text{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+
+header h1{
+        color: #fff;
+}
+
+header{
+    padding: 2rem 9rem;
+    background-image: url(./Images/img-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header .all{
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+header a{
+    color: #fff;
+}
+
+header i{
+    margin-left: 10px;
+}
+
+#section-1 p{
+    color: #fff;
+}
+
+#section-1{
+    text-align: center;
+    padding: 10rem 2rem 16rem 2rem;
+}
+
+#section-1 h1{
+    font-size: 4rem;
+}
+
+#section-1 p{
+    font-size: 1.3rem;
+}
+
+#section-1 form{
+    display: flex;
+    justify-content: space-between;
+}
+
+#section-1 select{
+    width: 23%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+#section-1 input{
+    width: 23%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+#section-1 a{
+    background-color: #ff4a52;
+    color: #fff;
+    padding: 10px 7rem;
+    border-radius: 5px;
+}
+
+#section-1 a:hover{
+    background-color: rgb(66, 207, 172);
+}
+
+.inputs{
+    margin-top: 20px;
+}
+
+#section-2 h1{
+    font-size: 2.5rem;
+}
+
+#section-2 p{
+    font-size: 17px;
+    color: #8d9199;
+    margin-top: 5px;
+}
+
+#section-2 .boxes{
+    display: flex;
+    justify-content: space-between;
+}
+
+#section-2 .box{
+    width: 23%;
+}
+
+#section-3 .boxes, #section-4 .boxes{
+    display: flex;
+    justify-content: space-between;
+}
+
+#section-3 .box, #section-4 .box{
+    width: 30%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+#section-3 .box-text, #section-4 .box-text{
+    padding: 1rem 0;
+}
+
+#section-3 h1, #section-4 h1{
+    font-size: 2.5rem;
+}
+
+#section-3 .text p,#section-4 .text p{
+    font-size: 17px;
+    color: #8d9199;
+    margin-top: 5px;
+}
+
+#section-4 .box{
+    border: none;
+}
+
+#section-4 .box-img{
+    padding:0 7rem;
+}
+
+#section-4 p{
+    line-height: 25px;
+}
+
+#section-4 h3{
+    margin-bottom: 15px;
+}
+
+#section-5{
+    background-image: url(./Images/back.JPG);
+    background-position: center;
+    background-size: cover;
+    padding: 120px;
+}
+
+#section-6 .box-text{
+    padding: 2rem 2.2rem;
+    text-align: left;
+    line-height: 25px;
+}
+
+#section-6 .box-text p{
+    padding: 1.5rem 0;
+    font-size: 14px;
+    color: #8d9199;
+}
+
+.all sup {
+    background-color: red ;
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 8px;
+}
+
+
+
+
+
+
